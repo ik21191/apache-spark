@@ -40,7 +40,8 @@ public class InsertStaticValuesToMongo
         System.out.println("Inserting document.......");
         insertTestData() ;
         System.out.println("Document insertion done.");
-        
+        //D:\hadoop\bin\winutils.exe
+        System.setProperty("hadoop.home.dir", "D:\\hadoop\\");
         spark = SparkSession.builder()
   		      .master("local")
   		      .appName("MongoSparkConnectorIntro")
