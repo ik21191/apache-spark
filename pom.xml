@@ -112,7 +112,7 @@
 					<!-- MainClass in mainfest make a executable jar -->
 					<archive>
 					  <manifest>
-						<mainClass>com.spark.ReadAndSaveToMongo</mainClass>
+						<mainClass>com.spark.session.HelloSparkSession</mainClass>
 					  </manifest>
 					</archive>
 
